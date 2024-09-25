@@ -1,0 +1,61 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="@drawable/wallpaper"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="#263238"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="vertical"
+			android:alpha="0.8">
+			<LinearLayout
+				android:id="@+id/linear5"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="50dp"
+				android:layout_marginRight="50dp"
+				android:background="#37474F"
+				android:gravity="center_horizontal|center_vertical"
+				android:orientation="vertical">
+				<TextView
+					android:id="@+id/textview1"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="15dp"
+					android:layout_marginTop="15dp"
+					android:layout_marginRight="15dp"
+					android:padding="10dp"
+					android:gravity="center_horizontal|center_vertical"
+					android:text="يتوفر تحديث جديد للتطبيق !\n\n•••"
+					android:textSize="14sp"
+					android:textStyle="bold"
+					android:textColor="#FFFFFF" />
+				<Button
+					android:id="@+id/button1"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="15dp"
+					android:layout_marginRight="15dp"
+					android:layout_marginBottom="15dp"
+					android:padding="10dp"
+					android:background="#455A64"
+					android:text="تحديث"
+					android:textSize="14sp"
+					android:textStyle="bold"
+					android:textColor="#FFFFFF" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

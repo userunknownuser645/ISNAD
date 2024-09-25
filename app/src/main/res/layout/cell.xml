@@ -1,0 +1,179 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/form1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="100dp"
+		android:layout_marginTop="5dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginBottom="5dp"
+		android:background="#37474F"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="vertical"
+		android:rotation="180">
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:gravity="center_horizontal|top"
+			android:orientation="horizontal">
+			<de.hdodenhof.circleimageview.CircleImageView
+				android:id="@+id/circleimg1"
+				android:layout_width="50dp"
+				android:layout_height="50dp"
+				android:src="@drawable/user"
+				app:civ_circle_background_color="#00000000"
+				app:civ_border_overlay="true" />
+			<TextView
+				android:id="@+id/name1"
+				android:focusable="false"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:padding="10dp"
+				android:gravity="left|center_vertical"
+				android:text="أسم المستخدم"
+				android:textSize="14sp"
+				android:textStyle="bold"
+				android:textColor="#FFFFFF"
+				android:layout_weight="1" />
+			<ImageView
+				android:id="@+id/more1"
+				android:focusable="false"
+				android:layout_width="40dp"
+				android:layout_height="40dp"
+				android:padding="10dp"
+				android:background="#455A64"
+				android:src="@drawable/menu"
+				android:scaleType="fitCenter" />
+		</LinearLayout>
+		<TextView
+			android:id="@+id/msgcell1"
+			android:focusable="false"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp"
+			android:layout_marginBottom="10dp"
+			android:padding="10dp"
+			android:text="الرسالة"
+			android:textSize="14sp"
+			android:textStyle="bold"
+			android:textColor="#FFFFFF" />
+		<ImageView
+			android:id="@+id/pic1"
+			android:focusable="false"
+			android:layout_width="match_parent"
+			android:layout_height="200dp"
+			android:layout_marginLeft="1dp"
+			android:layout_marginRight="1dp"
+			android:src="@drawable/addimg"
+			android:scaleType="centerCrop" />
+		<TextView
+			android:id="@+id/date1"
+			android:focusable="false"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:gravity="right|center_vertical"
+			android:text="الوقت"
+			android:textSize="10sp"
+			android:textStyle="bold"
+			android:textColor="#FFFFFF" />
+	</LinearLayout>
+	<LinearLayout
+		android:id="@+id/form2"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="10dp"
+		android:layout_marginTop="5dp"
+		android:layout_marginRight="100dp"
+		android:layout_marginBottom="5dp"
+		android:background="#37474F"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="vertical"
+		android:rotation="180">
+		<LinearLayout
+			android:id="@+id/linear4"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:gravity="center_horizontal|top"
+			android:orientation="horizontal">
+			<ImageView
+				android:id="@+id/more2"
+				android:focusable="false"
+				android:layout_width="40dp"
+				android:layout_height="40dp"
+				android:padding="10dp"
+				android:background="#455A64"
+				android:src="@drawable/menu"
+				android:scaleType="fitCenter" />
+			<TextView
+				android:id="@+id/name2"
+				android:focusable="false"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:padding="10dp"
+				android:gravity="right|center_vertical"
+				android:text="أسم المستخدم"
+				android:textSize="14sp"
+				android:textStyle="bold"
+				android:textColor="#FFFFFF"
+				android:layout_weight="1" />
+			<de.hdodenhof.circleimageview.CircleImageView
+				android:id="@+id/circleimg2"
+				android:layout_width="50dp"
+				android:layout_height="50dp"
+				android:src="@drawable/user"
+				app:civ_circle_background_color="#00000000"
+				app:civ_border_overlay="true" />
+		</LinearLayout>
+		<TextView
+			android:id="@+id/msgcell2"
+			android:focusable="false"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp"
+			android:layout_marginBottom="10dp"
+			android:padding="10dp"
+			android:text="الرسالة"
+			android:textSize="14sp"
+			android:textStyle="bold"
+			android:textColor="#FFFFFF" />
+		<ImageView
+			android:id="@+id/pic2"
+			android:focusable="false"
+			android:layout_width="match_parent"
+			android:layout_height="200dp"
+			android:layout_marginLeft="1dp"
+			android:layout_marginRight="1dp"
+			android:src="@drawable/addimg"
+			android:scaleType="centerCrop" />
+		<TextView
+			android:id="@+id/date2"
+			android:focusable="false"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:gravity="left|center_vertical"
+			android:text="الوقت"
+			android:textSize="10sp"
+			android:textStyle="bold"
+			android:textColor="#FFFFFF" />
+	</LinearLayout>
+	<LinearLayout
+		android:id="@+id/linear5"
+		android:layout_width="match_parent"
+		android:layout_height="30dp"
+		android:layout_marginTop="5dp"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="horizontal" />
+</LinearLayout>
